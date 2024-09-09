@@ -14,7 +14,7 @@ As I continue learning, I plan to enhance this project by adding more functional
 -Delete tasks from the list.
 
 
-##Technologies Used:
+## Technologies Used:
 
 -HTML: For structuring the content.
 
