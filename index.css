@@ -1,0 +1,123 @@
+body{
+    background-color: #0a0e19;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container{
+    background-color: #12172a;
+    border-style: solid;
+    border-width : 0;
+    border-radius: 5px;
+    width: 35%;
+    height: 400px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    
+}
+
+
+
+#heading{
+    font-family: 'Pacifico', cursive;
+    display: flex;
+    justify-content: ceneter;
+    padding-top: 35px;
+    padding-bottom:20px;
+    font-size: 40;
+    color: white;
+    font-weight:200;
+
+}
+
+.funct{
+    width : 330px;
+    border-style: solid;
+    border-width: 0px;
+    height: 38px;
+    border-radius: 5px;
+    
+}
+
+#inputField{
+    margin-bottom: 10px;
+    background-color: #242f54;
+    padding-left: 10px;
+    font-weight:300;
+    font-size: 14;
+}
+
+#btn{
+    background-color: #0078d4;
+    color: white;
+    font-weight: bold;
+    font-size: 15;
+    cursor: pointer;
+    
+}
+
+#todoCont{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    overflow : auto; 
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+
+.todoEl{
+    margin-top: 9px;
+    font-size: 17px;
+    padding-left: 2px;
+
+
+    border-style: solid;
+    border-width: 0;
+    border-radius: 5px;
+    
+    background-color: #20355e;
+    
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+
+    width: 330px;
+    min-height: 39px;
+    
+}
+
+.text{
+    color: white;
+}
+
+.buttons{
+    border-style: solid;
+    border-width: 0;
+    border-radius: 3px;
+    height: 24px;
+    width: 60px;
+    color: white;
+    cursor: pointer;
+}
+
+
+.completed{
+    text-decoration: line-through;
+    color:rgb(154, 146, 146);
+}
+
+
+.delete{
+    background-color: #cc0f0f;
+}
+
+.edit{
+    background-color:rgb(169, 156, 15);
+}
+
+.editClicked{
+    background-color: rgb(2, 101, 0);
+}

@@ -1,0 +1,45 @@
+<head>
+    <title>upToDate</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <script src="dom.js"></script>
+</head>
+<body>
+    <div id = "container">
+        <div id ="heading">Todo List</div>
+
+        <div><input type = text  class = "funct" id ="inputField" placeholder="Enter your task"></div>
+        <div><button id = "btn" class = "funct" onclick = addTodo()>Add</button></div>
+
+        <div id = "todoCont">
+            <div class = "todoEl" id="fresh-1">
+                <div>
+                    <input type = checkbox onclick="toggleCheckBox('freshIn-1', 'freshTx-1')"  id="freshIn-1">
+                    <span class="text" id="freshTx-1">Keep smiling!!!</span>
+                </div>
+                <div>
+                    <button onclick="editTodo('freshTx-1')" id = "editBtn-1" class="buttons edit">Edit</button>
+                    <button onclick="deleteTodo('fresh-1')" class="buttons delete">Delete</button>
+                </div>
+            </div>
+
+
+            <div class = "todoEl" id="fresh-2">
+                <div>
+                    <input type = checkbox onclick="toggleCheckBox('freshIn-2','freshTx-2')" id="freshIn-2">
+                    <span class="text" id="freshTx-2">Laugh out loud!!</span>
+                </div>
+                <div>
+                    <button onclick="editTodo('freshTx-2')" id = "editBtn-2" class="buttons edit">Edit</button>
+                    <button onclick="deleteTodo('fresh-2')" class="buttons delete">Delete</button>
+                </div>
+            </div>  
+
+       </div>
+
+
+    </div>
+    
+</body>
